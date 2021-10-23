@@ -1,9 +1,5 @@
 body {
-<<<<<<< HEAD
     background-color: gainsboro;
-=======
-    background-color: salmon;
->>>>>>> 61d83f4ffc688f04b9eb061727b380aea5f4f1e6
     font-family: 'Anton', sans-serif;
    }
    
@@ -17,7 +13,6 @@ body {
    img {
        width: 550px;
        height: 200px;
-<<<<<<< HEAD
       
    }
    
@@ -25,15 +20,6 @@ body {
     font-size: 3rem;
     margin-left: 1rem;
     
-=======
-   
-   }
-   
-   h1 {
-    font-size: 2rem;
-    margin-left: 1rem;
-   
->>>>>>> 61d83f4ffc688f04b9eb061727b380aea5f4f1e6
    
    }
    
@@ -45,12 +31,8 @@ body {
        display: inline;
        font-size: 1.5rem;
        margin: 1rem;
-<<<<<<< HEAD
        
-=======
-   
->>>>>>> 61d83f4ffc688f04b9eb061727b380aea5f4f1e6
-   }   
+   } 
    
    a {
        text-decoration: none;
@@ -61,7 +43,6 @@ body {
        color: black;
    }
    
-<<<<<<< HEAD
    a:hover {
        color: white;
    }
@@ -89,21 +70,3 @@ body {
    tfoot {
        border: 1px solid black;
    }
-=======
-   main {
-       display: flex;
-       justify-content: space-between;
-       margin-top: 2rem;
-   
-   }
-   
-   main li {
-       display: flex;
-       flex-direction: row;
-       margin-left: 2.5rem;
-   }
-   
-   main h2 {
-       margin-left: 1rem;
-       font-size: 2rem;
->>>>>>> 61d83f4ffc688f04b9eb061727b380aea5f4f1e6
