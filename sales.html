@@ -2,17 +2,13 @@
 <html lang="en">
   <head>
     <title>Salmon</title>
-    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/stlye.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1><a href=index.html>Salmon Cookies</a></h1>
-      <img src="https://github.com/codefellows/seattle-code-201n24/blob/main/class-08/lab-b/assets/salmon.png?raw=true"
-      >
+      <img src=https://github.com/codefellows/seattle-code-201n24/blob/main/class-08/lab-b/assets/salmon.png?raw=true"">
       
       <nav>
         <ul>
@@ -24,12 +20,33 @@
       </nav>
     </header>
     <main>
+    <section>
+        <form id="cookieForm">
+          <fieldset>
+            <legend>Add a Cookie Stand</legend>
+            <label>Stand Name:
+              <input type="text" name="storeName">
+            </label>
+            <label>Min Cookies Sold:
+              <input type="number" name="min">
+            </label>
+            <label>Max Cookies Sold:
+              <input type="number" name="max">
+            </label>
+            <label>Average Number of Customers:
+              <input type="number" name="customerAverage">
+            </label>
+          </fieldset>
+          <button type="submit">Add a Store</button>
+        </form>
+      </section>
+
       <table>
         <thead>
 
         </thead>
-        
-        
+        </table>
+        <table id="rowsum">
           <tr id="seattle">
             <td>Seattle</td>
           </tr>
@@ -49,14 +66,12 @@
           
         </tbody>
       <tfoot>
-        <th id="totals">
-          Totals  
-        </th>
 
       </tfoot>
       </table>
         
     </main>
+   
     <script src="js/app.js"></script>
   </body>
 </html>
